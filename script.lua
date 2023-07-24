@@ -278,7 +278,6 @@ end
 
 
 function cleanup()
-  stop_all_screen_notes()
   pat:stop()
   pat = nil
 end
